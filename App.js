@@ -46,6 +46,7 @@ class App extends React.Component {
                 password: input,
               });
             }}
+            secureTextEntry={true}
             returnKeyType="done"
           />
         </View>
